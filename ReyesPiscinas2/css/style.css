@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #00aaff; /* Cambiado a un color azul para que sea visible sobre el fondo transparente */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inicio {
+    text-align: center;
+}
+
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contacto-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contacto-btn:hover {
+    background-color: darkgreen;
+}
+
+h2 {
+    color: #00aaff;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.servicio {
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria .proyecto {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+}
+
+.galeria .proyecto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+blockquote {
+    background-color: #e6f7ff;
+    border-left: 5px solid #00aaff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #008ecc;
+}
+
+footer {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
